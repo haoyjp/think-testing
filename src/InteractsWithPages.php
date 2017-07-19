@@ -18,7 +18,7 @@ use think\File;
 use think\helper\Str;
 use think\Request;
 use think\response\Redirect;
-use PHPUnit_Framework_ExpectationFailedException as PHPUnitException;
+use PHPUnit\Framework\ExpectationFailedException as PHPUnitException;
 use think\Url;
 
 trait InteractsWithPages
